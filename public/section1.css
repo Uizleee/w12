@@ -76,6 +76,35 @@ line-height: 32px
     display: flex;
     text-align: center;
 }
+@media screen and (max-width:1057px){
+    .squares{
+        display: none;
+    }
+    .section1{
+        display: flex;
+        border-radius: 0;
+        height: auto;
+        text-align: center;
+        justify-content: center;
+        
+    }
+    .head{
+        padding: 13px;
+    }
+    .txt1{
+        display: flex;
+        text-align: left;
+    }
+    .container-2{
+        padding: 14px;
+        text-align: center;
+        width: auto;
+        justify-items: center
+    }
+    .container-1{
+        width: auto;
+    }
+}
 @media screen and (max-width:480px){
     .squares{
         display: none;

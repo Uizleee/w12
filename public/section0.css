@@ -46,3 +46,15 @@
     }
 
 }
+@media screen and (max-width:680px){
+    .section0{
+        justify-content: center;
+    }
+    .section0 ul{
+        display: none;
+        }
+    .logo{
+        padding-left: 0;
+    }
+
+}
