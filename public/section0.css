@@ -1,0 +1,48 @@
+.section0{
+    max-width: 1440px;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+.section0 ul{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 144px;
+    list-style: none;
+}
+.section0 ul li a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    float: left;
+    padding-right: 32px;
+    position: relative;
+    color: #8E43ED;
+    text-decoration: none;
+}
+.logo{
+    float: left;
+    padding-left: 64px;
+    max-width: 100%;
+}
+@media screen and (max-width:480px){
+    .section0 ul{
+    display: none;
+    }
+    .section0{
+        justify-content: center;
+    }
+    .logo{
+        padding-left: 0;
+    }
+
+}

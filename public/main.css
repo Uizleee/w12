@@ -1,0 +1,22 @@
+.section0{
+    max-width: 1440px;
+   
+
+}
+.section0 ul{
+    display: none;
+}
+.section0 ul li a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    float: left;
+    padding-right: 32px;
+    position: relative;
+    color: #8E43ED;
+    text-decoration: none;
+}
+.logo{
+    align-items: center;
+    
+}
