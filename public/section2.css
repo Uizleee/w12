@@ -1,10 +1,15 @@
 .section2{
     max-width: 1440px;
-    margin-left:64px;
     max-width: 100%;
 }
 .block22{
+    position: relative;
     display: none;
+}
+.block2{
+    position: relative;
+    margin-left:64px;
+
 }
 
 .tell{
@@ -13,7 +18,9 @@ font-style: normal;
 font-weight: 800;
 font-size: 40px;
 line-height: 72px;
-padding-top: 56px
+padding-top: 56px;
+position: relative;
+margin-left:64px;
 }
 .squares2{
     padding-top: 47px;
@@ -30,6 +37,8 @@ padding-top: 56px
 }
 .block1{
     display: flex;
+    position: relative;
+    margin-left:64px;
 }
 form{
     display: flex;
@@ -54,6 +63,7 @@ form{
     font-size: 16px;
     margin-top: 112px;
     margin-bottom: 48px;
+    margin-left: 64px;
 
 }
 .btn:disabled{
@@ -110,7 +120,11 @@ line-height: 24px;
 }
 
 .block3{
-    display: none
+    display: none;
+}
+#ss{
+    position: relative;
+    margin-left: 64px;
 }
 
 .preview-pic {
@@ -186,7 +200,14 @@ margin-bottom: 24px;
     padding-right: 16px;
     color:gray
 }
+.squares3{
+    position: absolute;
+    padding-top: 50px;
+}
 @media screen and (max-width:1040px){
+    .squares3{
+        display: none;
+    }
     .squares2{
         display: none;
     }
@@ -214,6 +235,9 @@ margin-bottom: 24px;
     }
     }
 @media screen and (max-width:480px){
+    .btn, .block1, .block2, .tell{
+        margin-left: 0px;
+    }
     .squares2{
         display: none;
     }
@@ -235,5 +259,9 @@ margin-bottom: 24px;
     }
     input[type=text]{
         margin-right: 0;
+    }
+    #ss{
+        position: relative;
+        margin-left: 0px;
     }
     }

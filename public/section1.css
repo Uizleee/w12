@@ -76,6 +76,9 @@ line-height: 32px
     display: flex;
     text-align: center;
 }
+.squares3{
+    position: relative;
+}
 @media screen and (max-width:1057px){
     .squares{
         display: none;
@@ -123,6 +126,7 @@ line-height: 32px
         display: flex;
     }
     .container-2{
-        padding:14px
+        padding:14px;
+        justify-items: left;
     }
 }
