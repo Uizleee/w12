@@ -45,6 +45,7 @@ text-align: center;
     .carousel-inner{
         margin: auto;
     }
+}
 
 @media screen and (max-width:480px){
     .carousel-inner{
@@ -73,6 +74,4 @@ text-align: center;
     line-height: 48px;
     text-align: center;
     }
-
-   
-    }
+}
